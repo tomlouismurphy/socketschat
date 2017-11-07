@@ -9,6 +9,7 @@ export class ChatOptions extends Component {
 			<div className="col s3">
 				<div className="subset" id="chatOptionsContainer">
 					<h5>Chat List</h5>
+						<ul>{classification}</ul>
 				</div>
 			</div>
 		)

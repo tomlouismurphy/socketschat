@@ -5,7 +5,7 @@ export class ChatOptions extends Component {
 		return(
 			<div className="col s3">
 				<div className="subset" id="chatOptionsContainer">
-					<p>this is chat rooms</p>
+					<h5>Chat List</h5>
 				</div>
 			</div>
 		)

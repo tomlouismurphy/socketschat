@@ -11,6 +11,7 @@ export class Chatroom extends Component {
 		this.state = {
 			usernames: [],
 			messages: [],
+			classification: [], 
 			myUsername: this.props.myUsername
 		}
 	}
@@ -32,7 +33,7 @@ export class Chatroom extends Component {
 			<div className="row">
 				<Users usernames={this.state.usernames}/>
 				<ChatOptions/>
-				<ChatBoard messages={this.state.messages} myUsername={this.props.myUsername}/>
+				<ChatBoard messages={this.state.messages} myUsername={this.props.myUsername} classification={this.state.classification}/>
 			</div>
 		)
 	}
